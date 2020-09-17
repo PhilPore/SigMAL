@@ -7,6 +7,7 @@ Python
 
 -Read port and IP from argv. Some kind of net to ensure that even if you write garbage input program makes sure you write good input.
 Input format:
+
 * T/U - TCP or UDP
 * ip
 * port
@@ -19,5 +20,6 @@ hacker interface. NEEEEED IT (kill me)
 
 
 Optional:
-Concurrency. 
-Find out what the service is, depending on port. (will require some googling)
+*Concurrency. 
+
+*Find out what the service is, depending on port. (will require some googling)
