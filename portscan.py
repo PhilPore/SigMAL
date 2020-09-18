@@ -6,10 +6,10 @@ import sys
 
 
 def TCP_scan(): 
-    clientSocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    TCPsocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 def UDP_scan():
-    clientsocket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    UDPsocket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Scans a host for open ports")
