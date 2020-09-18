@@ -10,7 +10,7 @@ Input format:
 
 * T/U - TCP or UDP
 * ip
-* port
+* port(ask  if they want 0-1023, or the whole nine yards.)
 
 - Document it!
 
