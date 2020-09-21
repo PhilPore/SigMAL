@@ -16,7 +16,7 @@ def TCP_scan(host, port):
         sock.connect((host, port))
         availableports.append(port)
     except:
-        print("Connection failed!")
+        print("Connection failed for port {}!".format(port))
 
 
 def UDP_scan(host, port):
