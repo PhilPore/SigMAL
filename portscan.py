@@ -18,6 +18,9 @@ def TCP_scan(host, port):
     except:
         print("Connection failed for port {}!".format(port))
 
+    #sock.shutdown()??
+    sock.close()
+
 
 def UDP_scan(host, port):
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
